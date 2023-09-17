@@ -1,0 +1,24 @@
+import React, { useEffect } from "react";
+import { useHistory } from "react-router-dom";
+
+function DelayedRedirect() {
+	const history = useHistory();
+
+	useEffect(() => {
+		const timeoutId = setTimeout(() => {
+			history.push("/overView");
+		}, 2000);
+
+		return () => {
+			clearTimeout(timeoutId);
+		};
+	}, [history]);
+
+	return (
+		<div>
+			<p>Redirecting in 2 seconds...</p>
+		</div>
+	);
+}
+
+export default DelayedRedirect;

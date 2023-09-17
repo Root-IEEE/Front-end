@@ -1,17 +1,24 @@
 import React, { Component } from 'react'
-import HomePage from './HomePage/HomePage'
-import './App.css' 
+import { Routes, Route } from 'react-router-dom'
 
-class app extends Component {
+
+
+class App extends Component {
   render() {
     return (
       <div>
-        
-        <HomePage/>
-        
+        <Routes>
+          <Route to="/" />
+          <Route to="/signup" />
+          <Route to="/forgot-password" />
+          <Route to="/verification-code" />
+          <Route to="/reset-password" />
+          <Route to="/accept" />
+          <Route to="/login" />
+        </Routes>
       </div>
     )
   }
 }
 
-export default app;
+export default App;
