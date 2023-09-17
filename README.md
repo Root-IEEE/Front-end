@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# iEEE Educational Platform - Front-End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the front-end logic for the iEEE Educational Platform, an educational website and app designed for students to watch educational videos and solve exams uploaded by teachers.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- React.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Dependencies
 
-### `npm test`
+- axios
+- bootstrap
+- react
+- react-bootstrap
+- react-dom
+- react-router
+- react-router-dom
+- react-scripts
+- react-scroll
+- react-scroll-to-top
+- react-use-cart
+- reactstrap
+- web-vitals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+Describe the structure of your project, including the main directories and their purposes. For example:
+|-- src/ # Source code
+| |-- components/ # React components
+| |-- styles/ # CSS styles
+| |-- ...
+|-- public/ # Public files
+|-- package.json # Project configuration
+|-- README.md # This file
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Provide instructions on how to install the project's dependencies and get it up and running. For example:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone the repository
+git clone https://github.com/iEEE/Front-End.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Change to the project directory
+cd Front-End
 
-### `npm run eject`
+# Install dependencies
+npm install
+Configuration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Explain any configuration steps that are necessary, such as setting up environment variables or API keys.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Provide information on how to use the project. Include details on how to run it locally or deploy it. For example:
+# Start the development server
+npm start
+Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Explain how others can contribute to your project. Include guidelines for submitting issues or pull requests.
 
-## Learn More
+License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
+Feel free to modify and expand upon this template to suit your project's specific needs. Be sure to replace the example structure and instructions with information relevant to your project.
