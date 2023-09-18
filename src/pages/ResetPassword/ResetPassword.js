@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-export class ResetPage extends Component {
-	render() {
+const  ResetPage =()=> {
 		return (
 			<div>
 				<div className="forget3">
@@ -22,9 +21,9 @@ export class ResetPage extends Component {
 										<input type="password" placeholder="Enter your password" />
 										<h5>Confirm Password</h5>
 										<input type="password" placeholder="Confirm password" />
-										<Link to="/overView" className="btn-send">
+										<NavLink to="/overView" className="btn-send">
 											Send Reset Code
-										</Link>
+										</NavLink>
 									</div>
 									{/* <!-- end content --> */}
 								</div>
@@ -32,9 +31,9 @@ export class ResetPage extends Component {
 								<div className="text">
 									<h6>
 										Back to{" "}
-										<Link to="/login">
+										<NavLink to="/login">
 											<span>Log in</span>
-										</Link>
+										</NavLink>
 									</h6>
 								</div>
 							</div>
@@ -48,6 +47,6 @@ export class ResetPage extends Component {
 			</div>
 		);
 	}
-}
+
 
 export default ResetPage;

@@ -9,11 +9,14 @@ import LoginPage from "./pages/LoginPage/Login";
 import SignupPage from "./pages/SignupPage/Signup";
 import RegisterPage from "./pages/RegisterPage/Register";
 import Overviewpage from "./pages/OverviewPage/Overview";
-import DelayedRedirect from "./pages/DelayedPage/DelayedRedirect";
 import LessonPage from "./pages/LessonPage/Lesson";
 import QuizPage from "./pages/QuizPage/Quiz";
-import MessagePage from "./pages/MessagePage/Message";
 import SettingPage from "./pages/SettingPage/Setting";
+import QuizdetailPage from "./pages/QuizdetailPage/Quizdetail";
+import MessagePage from "./pages/MessagePage/Message";
+import LessondetailPage from "./pages/LessondetailPage/Lessondetail";
+
+
 
 
 const router = createBrowserRouter([
@@ -55,25 +58,30 @@ const router = createBrowserRouter([
 		element: <Overviewpage />,
 	},
 	{
-		path: "/Delayed",
-		element: <DelayedRedirect />,
-	},
-	{
 		path: "/lesson",
 		element: <LessonPage />,
+	},
+	{
+		path: "/lessondetail",
+		element: <LessondetailPage />,
 	},
 	{
 		path: "/quiz",
 		element: <QuizPage />,
 	},
 	{
-		path: "/Message",
+		path: "/quizdetail",
+		element: <QuizdetailPage />,
+	},
+	{
+		path: "/message",
 		element: <MessagePage />,
 	},
 	{
-		path: "/Setting",
+		path: "/setting",
 		element: <SettingPage />,
 	},
+
 	
 	// ... add other route configurations ...
 ]);
